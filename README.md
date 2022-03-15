@@ -1,82 +1,86 @@
 # Lista de coisas para serem instaladas
 
-1. VIM
+## VIM
 ```sudo apt install vim```
 
-2. Chrome =P
+## Chrome =P
 
-Download:
+1 .Download:
 ```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb```
 
-Install:
+2. Install:
 ```sudo apt install ./google-chrome-stable_current_amd64.deb```
 
-3. Terminator
+## Terminator
 ```sudo apt install terminator```
 
-4. Git
+## Git
 
-Install
+1. Install
 ```sudo apt install git-all```
 
-Config
-Name
+2.Config
+### Name
 ```git config --global user.name "your name"```
 
-Mail
+### Mail
 ```git config --global user.email your mail```
 
-Editor
+### Editor
 ```git config --global core.editor vim```
 
-SSH config
+### SSH config
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-5. NVM
-Download
+## NVM
+1. Download
 ```wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash```
 
-Node install
+2. Node install
 ```nvm install lts/fermium```
 
-6. Intellij
+## Intellij
 ```sudo snap install intellij-idea-ultimate --classic```
 
-7. Spotify
+## Spotify
 ```sudo snap install spotify```
 
-8. GIMP
+## GIMP
 ```sudo snap install gimp```
 
-9. VLC
+## VLC
 ```sudo snap install vlc```
 
-10. Mini Diary
+## Mini Diary
 ```sudo snap install mini-diary```
 
-11. Java
-Update
+## Java
+1. Update
 ```sudo apt update```
 
-Install
+2. Install
 ```sudo apt install default-jdk```
 
-Install javac
+3. Install javac
 ```sudo apt install default-jdk```
 
-Managing and Setting Java and JAVA_HOME
+4. Managing and Setting Java and JAVA_HOME
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04
 
-12. Android Studio
-Download 
+## Android Studio
+1. Download 
 https://developer.android.com/studio?gclid=Cj0KCQjwz7uRBhDRARIsAFqjulmKQEkZTPS_AuSiz35Dtb0tCagTRpxsU5sK_IDh0_CarRA7_4LLvFEaAl3qEALw_wcB&gclsrc=aw.ds
 
-Unpack
+2. Unpack
 tar -xvf android-studio-2021.1.1.22-linux.tar.gz
 
-Moving Android Studio to usr
+3. Moving Android Studio to usr
 sudo mv ./android-studio /usr/local/
 
+## Nativescript
+1. https://docs.nativescript.org/environment-setup.html#linux-android
 
+2. Install
+```npm install -g nativescript```
