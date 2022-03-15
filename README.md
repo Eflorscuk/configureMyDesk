@@ -84,3 +84,16 @@ sudo mv ./android-studio /usr/local/
 
 2. Install
 ```npm install -g nativescript```
+
+## Docker / docker-compose
+
+1. Install
+```sudo apt install docker-compose```
+
+2. User not root
+```sudo usermod -aG docker $USER```
+
+3. Reboot
+```systemctl reboot```
+
+
