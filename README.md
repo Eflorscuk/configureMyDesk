@@ -5,10 +5,10 @@
 
 ## Chrome =P
 
-###Download:
+### Download:
 ```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb```
 
-###Install:
+### Install:
 ```sudo apt install ./google-chrome-stable_current_amd64.deb```
 
 ## Terminator
@@ -39,7 +39,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 ```wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash```
 
 ### Node install
-```nvm install lts/fermium```
+	```nvm install lts/fermium```
 
 ## Intellij
 ```sudo snap install intellij-idea-ultimate --classic```
