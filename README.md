@@ -5,10 +5,10 @@
 
 ## Chrome =P
 
-1 .Download:
+###Download:
 ```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb```
 
-2. Install:
+###Install:
 ```sudo apt install ./google-chrome-stable_current_amd64.deb```
 
 ## Terminator
@@ -16,29 +16,29 @@
 
 ## Git
 
-1. Install
+###Install
 ```sudo apt install git-all```
 
-2.Config
-### Name
+###.Config
+#### Name
 ```git config --global user.name "your name"```
 
-### Mail
+#### Mail
 ```git config --global user.email your mail```
 
 ### Editor
 ```git config --global core.editor vim```
 
-### SSH config
+#### SSH config
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 ## NVM
-1. Download
+### Download
 ```wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash```
 
-2. Node install
+### Node install
 ```nvm install lts/fermium```
 
 ## Intellij
@@ -57,43 +57,43 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 ```sudo snap install mini-diary```
 
 ## Java
-1. Update
+### Update
 ```sudo apt update```
 
-2. Install
+### Install
 ```sudo apt install default-jdk```
 
-3. Install javac
+### Install javac
 ```sudo apt install default-jdk```
 
-4. Managing and Setting Java and JAVA_HOME
+### Managing and Setting Java and JAVA_HOME
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04
 
 ## Android Studio
-1. Download 
+### Download 
 https://developer.android.com/studio?gclid=Cj0KCQjwz7uRBhDRARIsAFqjulmKQEkZTPS_AuSiz35Dtb0tCagTRpxsU5sK_IDh0_CarRA7_4LLvFEaAl3qEALw_wcB&gclsrc=aw.ds
 
-2. Unpack
+### Unpack
 tar -xvf android-studio-2021.1.1.22-linux.tar.gz
 
-3. Moving Android Studio to usr
+### Moving Android Studio to usr
 sudo mv ./android-studio /usr/local/
 
 ## Nativescript
-1. https://docs.nativescript.org/environment-setup.html#linux-android
+### https://docs.nativescript.org/environment-setup.html#linux-android
 
-2. Install
+### Install
 ```npm install -g nativescript```
 
 ## Docker / docker-compose
 
-1. Install
+### Install
 ```sudo apt install docker-compose```
 
-2. User not root
+### User not root
 ```sudo usermod -aG docker $USER```
 
-3. Reboot
+### Reboot
 ```systemctl reboot```
 
 
