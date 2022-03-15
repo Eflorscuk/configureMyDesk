@@ -16,10 +16,10 @@
 
 ## Git
 
-###Install
+### Install
 ```sudo apt install git-all```
 
-###.Config
+### Config
 #### Name
 ```git config --global user.name "your name"```
 
