@@ -74,13 +74,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on
 https://developer.android.com/studio?gclid=Cj0KCQjwz7uRBhDRARIsAFqjulmKQEkZTPS_AuSiz35Dtb0tCagTRpxsU5sK_IDh0_CarRA7_4LLvFEaAl3qEALw_wcB&gclsrc=aw.ds
 
 ### Unpack
-tar -xvf android-studio-2021.1.1.22-linux.tar.gz
+```tar -xvf android-studio-2021.1.1.22-linux.tar.gz```
 
 ### Moving Android Studio to usr
-sudo mv ./android-studio /usr/local/
+```sudo mv ./android-studio /usr/local/```
 
 ## Nativescript
-### https://docs.nativescript.org/environment-setup.html#linux-android
+https://docs.nativescript.org/environment-setup.html#linux-android
 
 ### Install
 ```npm install -g nativescript```
